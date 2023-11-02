@@ -13,7 +13,7 @@ writeln;
 for i:=1 to 20 do
 begin
 b[i]:=random(121)-20;
-if b[i]> 0 then s2:=s2+a[i];
+if b[i]> 0 then s2:=s2+b[i];
 write(b[i],' ');
 end;
 writeln;
